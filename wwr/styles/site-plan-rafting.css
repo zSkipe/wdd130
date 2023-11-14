@@ -47,3 +47,35 @@ nav a:hover {
 color: var(--nav-hover-link-color);
 background-color: var(--nav-hover-background-color);
 }               
+
+main { 
+    max-width: 840 px;
+}  
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+aside { 
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
+    padding: 1rem;
+    background-color: #f9ebe0;
+    color: aquamarine;
+    text-align: center;
+} 
+
+aside image { 
+    width: 200px;
+    height: auto;
+} 
+
+p {  padding: 0;}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #60492c;
+    text-align: center;
+}
