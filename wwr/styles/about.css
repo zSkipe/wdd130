@@ -16,21 +16,22 @@ header{
     background-color: rgb(216, 163, 93);
     width: 100%;
     margin: auto;
-    padding: 50px 200px;
-    display: flex;
+    padding: 50px 300px;
+    display: grid;
     align-items: center;
     justify-content: space-between;
 }
 
 header img{
     width: 300px;
-    
+    grid-column: 1/2;
 }
 
 .encabezado{
     display: flex;
     flex-direction: row-reverse;
     padding: 10px;
+    grid-column: 2/3;
 
 
 
@@ -50,6 +51,7 @@ header p{
     width: 700px;
     text-align: right;
     margin-top: 25px;
+    display: grid;
 }
 main{
     width: 980px;
@@ -93,4 +95,30 @@ footer{
     width: 50px;
     padding: 10px;
     
+}
+
+.history2{
+    display: flex;
+    clear: both;
+    justify-content: space-between;
+
+}
+
+.history2 img{
+    float: none !important;
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: 0 40px;
+}
+
+.history2 p{
+    float: none !important;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.part1{
+    justify-content: flex-end;
+    display: flex;
+    padding-right: 500px;
 }
