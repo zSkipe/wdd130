@@ -44,21 +44,22 @@ p {
     }
 nav a {
     display: block;
-    color: var(--nav-link-color) ;
+    color: #f9ebe0;
     text-decoration: none;
-    padding: 1rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #f9ebe0;
 }  
 nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+    color: #f9ebe0;
 }  
 nav a:hover {
 color: var(--nav-hover-link-color);
 background-color: var(--nav-hover-background-color);
 }               
 
-main { 
-    max-width: 840 px;
-}  
+
 
 main img {
     width: 150px;
@@ -111,3 +112,17 @@ aside h2{
     top: 47px;
     left: 150px;
 }
+
+header, footer{
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
